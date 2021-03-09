@@ -1,0 +1,32 @@
+깃허브 사용법
+
+
+최초 파일 설정 방법
+new repository 생성
+git bash 열기
+git init
+git remote and origin 링크(repository)
+
+
+내 파일 upload
+git status
+git add .
+git commit -m "message"
+git push origin master
+
+
+타인의 public github load
+git init
+git remote add origin 링크 주소
+git pull origin master
+
+
+
+pull
+git pull origin master
+
+push
+git status
+git add . (- file tracking)
+git commit -m "message"
+git push origin +master
