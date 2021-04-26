@@ -1,16 +1,13 @@
 깃허브 사용법
+업로드 양식: "2021.06.10 DScover or Likelion assignment upload"
 
-
-최초 파일 설정 방법
-new repository 생성
-git bash 열기
+최초 파일 설정
 git init
-git remote and origin 링크(repository)
-
-최초 파일 설정 오류 발생 시
-git remote -v
-git remote remove repository
-git remote add origin https://github.com/account/repository.git
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin LINK
+git push -u origin master
 
 내 파일 upload
 git status
